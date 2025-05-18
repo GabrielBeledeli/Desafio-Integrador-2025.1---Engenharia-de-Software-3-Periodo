@@ -46,39 +46,13 @@ function carregarPneus() {
 // Função chamada ao clicar em "Editar" de um pneu
 function editarProduto(id) {
   alert("Editar produto com ID: " + id);
-  // Caso tenha página para edição, pode redirecionar assim:
-  // window.location.href = `edicao.html?id=${id}`;
+  // Página para edição
+  window.location.href = `index_edicao.html?id=${id}`;
 }
 
 // Função chamada ao clicar em "Excluir" de um pneu
 function excluirProduto(id) {
   alert("Excluir produto com ID: " + id);
-  // Caso tenha página para exclusão, pode redirecionar assim:
-  // window.location.href = `exclusao.html?id=${id}`;
+  // Página para exclusão
+  window.location.href = `index_exclusao.html?id=${id}`;
 }
-
-// Função para fazer logout removendo o usuário logado do localStorage e redirecionando para o login
-function logout() {
-  localStorage.removeItem('usuario_logado');
-  window.location.href = 'index_login.html';
-}
-
-// Quando o DOM estiver carregado, executa o seguinte:
-document.addEventListener('DOMContentLoaded', () => {
-  // Tenta obter o usuário logado do localStorage
-  const usuarioLogado = JSON.parse(localStorage.getItem('usuario_logado'));
-
-  if (usuarioLogado && usuarioLogado.usuario) {
-    // Se tem usuário logado, atualiza o texto na interface com o nome do usuário
-    document.getElementById('nomeUsuario').textContent = usuarioLogado.usuario;
-  } else {
-    // Se não há usuário logado, redireciona para a página de login
-    window.location.href = 'index_login.html';
-  }
-
-  // Chama a função para carregar e mostrar os pneus na tabela
-  carregarPneus();
-
-  // Adiciona evento de clique ao botão de logout
-  document.getElementById('btnLogout').addEventListener('click', logout);
-});

@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PneuMax | Sistema</title>
+    <title>PneuMax | Log</title>
     <!-- Link para o arquivo CSS principal da página -->
     <link rel="stylesheet" href="css/style_header_footer.css" />
-    <link rel="stylesheet" href="css/style_estoque.css">
     <!-- Ícone da aba do navegador -->
     <link rel="shortcut icon" href="assets/icon2.png" type="image/x-icon">
 </head>
@@ -43,46 +42,12 @@
         </div>
     </header>
 
-    <!-- Conteúdo principal da página -->
-    <main class="li-est-main">
-        <!-- Seção da tabela de estoque -->
-        <section id="tabela-estoque">
-            <h2>Estoque Atual</h2>
-            <!-- Tabela para exibir os pneus cadastrados no estoque -->
-            <table class="li-est-tabela">
-                <thead>
-                    <tr>
-                        <!-- Cabeçalho da tabela com os campos dos pneus -->
-                        <th>ID</th>
-                        <th>Marca</th>
-                        <th>Modelo</th>
-                        <th>Aro</th>
-                        <th>Medida</th>
-                        <th>Preço</th>
-                        <th>Qtd</th>
-                        <th>Largura</th>
-                        <th>Perfil</th>
-                        <th>Índice Peso</th>
-                        <th>Índice Velocidade</th>
-                        <th>Construção</th>
-                        <th>Terreno</th>
-                        <th>Desenho</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
-                <!-- Corpo da tabela onde os dados dos pneus serão inseridos dinamicamente -->
-                <tbody id="tbody-pneus"></tbody>
-            </table>
-        </section>
-    </main>
 
     <!-- Rodapé fixo da página -->
     <footer class="cls-footer">
         © 2025 PneuMax. Todos os direitos reservados.
     </footer>
 
-    <!-- Link para o arquivo JavaScript principal da página -->
-    <script src="js/script_estoque.js"></script>
     <!-- Script para controlar a abertura e fechamento do menu hamburguer -->
     <script src="js/script_header_mobile.js"></script>
     <!-- Função para fazer logout -->    
