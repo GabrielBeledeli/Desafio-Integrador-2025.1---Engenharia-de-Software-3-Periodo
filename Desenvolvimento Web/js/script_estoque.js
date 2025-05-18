@@ -56,3 +56,7 @@ function excluirProduto(id) {
   // Página para exclusão
   window.location.href = `index_exclusao.html?id=${id}`;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  carregarPneus();
+});

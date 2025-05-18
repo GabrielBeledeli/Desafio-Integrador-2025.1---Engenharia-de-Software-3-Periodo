@@ -7,6 +7,7 @@
     <title>PneuMax | Cadastro</title>
     <!-- Link para o arquivo CSS principal da página -->
     <link rel="stylesheet" href="css/style_header_footer.css" />
+    <link rel="stylesheet" href="css/style_cadastro.css">
     <!-- Ícone da aba do navegador -->
     <link rel="shortcut icon" href="assets/icon2.png" type="image/x-icon">
 </head>
@@ -28,8 +29,8 @@
         <!-- Menu de navegação principal -->
         <nav class="header-nav">
             <!-- Links de navegação, com destaque no link ativo -->
-            <a href="index_home.html" class="ativo">Estoque</a>
-            <a href="index_cadastro.html">Cadastrar</a>
+            <a href="index_home.html">Estoque</a>
+            <a href="index_cadastro.html" class="ativo">Cadastrar</a>
             <a href="index_dashboard.html">Dashboard</a>
             <a href="index_log.html">Log de Ações</a>
         </nav>
@@ -42,6 +43,29 @@
         </div>
     </header>
 
+    <!-- Conteúdo principal da página -->
+    <main class="cadastro-main">
+        <form id="formCadastro">
+            <h2>Insira os dados do Pneu</h2>
+            <label>Marca: * <input type="text" id="marca" required></label>
+            <label>Modelo: * <input type="text" id="modelo" required></label>
+            <label>Aro: * <input type="number" id="aro" required></label>
+            <label>Medida: * <input type="text" id="medida" required></label>
+            <label>Preço: * <input type="number" step="0.01" id="preco" required></label>
+            <label>Quantidade em Estoque: * <input type="number" id="quantidade" required></label>
+
+            <h2>Especificações Técnicas</h2>
+            <label>Largura: * <input type="number" id="largura" required></label>
+            <label>Perfil: * <input type="text" id="perfil" required></label>
+            <label>Índice de Peso: <input type="text" id="indicePeso"></label>
+            <label>Índice de Velocidade: <input type="text" id="indiceVelocidade"></label>
+            <label>Tipo de Construção: * <input type="text" id="construcao" required></label>
+            <label>Tipo de Terreno: <input type="text" id="terreno"></label>
+            <label>Desenho: * <input type="text" id="desenho" required></label>
+
+            <button type="submit">Cadastrar Pneu</button>
+        </form>
+    </main>
 
     <!-- Rodapé fixo da página -->
     <footer class="cls-footer">
@@ -50,8 +74,9 @@
 
     <!-- Script para controlar a abertura e fechamento do menu hamburguer -->
     <script src="js/script_header_mobile.js"></script>
-    <!-- Função para fazer logout -->    
+    <!-- Função para fazer logout -->
     <script src="js/script_logout.js"></script>
+    <script src="js/script_cadastro.js"></script>
 </body>
 
 </html>

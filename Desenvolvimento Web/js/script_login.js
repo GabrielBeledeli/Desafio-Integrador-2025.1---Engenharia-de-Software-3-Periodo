@@ -18,6 +18,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
   if (usuarioValido) {
     // Se encontrou usuário válido, salva as credenciais no localStorage (pode ser para controle de sessão)
     localStorage.setItem('usuario_logado', JSON.stringify({
+      id_usuario: usuarioValido.id_usuario,
       usuario: usuarioValido.usuario,
       senha: usuarioValido.senha
     }));
