@@ -44,9 +44,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const especificacoes = JSON.parse(localStorage.getItem('especificacoes')) || [];
         const logs = JSON.parse(localStorage.getItem('log_acoes')) || [];
 
-        // Calcula novos IDs com base no maior ID atual, ou inicia em 1
-        const novoIdEspecificacao = especificacoes.length ? Math.max(...especificacoes.map(e => e.id_especificacao)) + 1 : 1;
-        const novoIdPneu = pneus.length ? Math.max(...pneus.map(p => p.id_pneu)) + 1 : 1;
+        // Calcula novos IDs
+        // Para especificações
+        let ultimoIdEspecificacao = parseInt(localStorage.getItem('ultimoIdEspecificacao') || '0');
+        const novoIdEspecificacao = ultimoIdEspecificacao + 1;
+        localStorage.setItem('ultimoIdEspecificacao', novoIdEspecificacao.toString());
+
+        // Para pneus
+        let ultimoIdPneu = parseInt(localStorage.getItem('ultimoIdPneu') || '0');
+        const novoIdPneu = ultimoIdPneu + 1;
+        localStorage.setItem('ultimoIdPneu', novoIdPneu.toString());
         const novoIdLog = logs.length ? Math.max(...logs.map(l => l.id_log)) + 1 : 1;
 
         // Cria objeto de especificação com os dados coletados

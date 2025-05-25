@@ -45,14 +45,12 @@ function carregarPneus() {
 
 // Função chamada ao clicar em "Editar" de um pneu
 function editarProduto(id) {
-  alert("Editar produto com ID: " + id);
   // Página para edição
   window.location.href = `index_edicao.html?id=${id}`;
 }
 
 // Função chamada ao clicar em "Excluir" de um pneu
 function excluirProduto(id) {
-  alert("Excluir produto com ID: " + id);
   // Página para exclusão
   window.location.href = `index_exclusao.html?id=${id}`;
 }
