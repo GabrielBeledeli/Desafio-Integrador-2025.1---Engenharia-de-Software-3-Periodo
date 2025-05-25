@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     tr.innerHTML = `
       <td data-label="ID Log">${log.id_log}</td>
       <td data-label="ID Pneu">${log.id_pneu || '-'}</td>
-      <td data-label="Marca">${pneu ? pneu.marca : (log.marca || '-')}</td>
       <td data-label="Usuário">${usuario ? usuario.usuario : 'Desconhecido'}</td>
       <td data-label="Ação">${log.acao}</td>
       <td data-label="Data/Hora">${new Date(log.data_hora).toLocaleString()}</td>
