@@ -3,8 +3,7 @@
 
 ## 🧾 Descrição
 
-**PneusMAX** é um sistema web responsivo para gerenciamento de estoque de pneus, permitindo cadastro, edição, exclusão e visualização de produtos. O sistema oferece autenticação de usuários, interface moderna e intuitiva, dashboard com gráficos interativos, registro de logs de ações e controle completo dos dados via `localStorage` do navegador. Ideal para uso acadêmico, demonstração de CRUD e conceitos de front-end.
-
+**PneusMAX** é um sistema web para gerenciamento de estoque de pneus, permitindo cadastro, edição, exclusão e visualização de produtos. O sistema oferece autenticação de usuários, interface moderna e intuitiva, dashboard com gráficos interativos, registro de logs de ações e controle completo dos dados via `localStorage` do navegador.
 ---
 
 ## 🚀 Funcionalidades
@@ -68,7 +67,7 @@ Desenvolvimento Web/
 
 ---
 
-## 👥 Usuários Padrão para Login
+## 👥 Usuários/Senhas Padrão para Login
 
 - **Usuário 1:** `gabriel_hul` / `gabriel123`  
 - **Usuário 2:** `caio_gemin` / `caio123`
@@ -79,12 +78,12 @@ Desenvolvimento Web/
 
 ## 🔧 Como Executar o Projeto
 
-1. **Abra o arquivo `index_login.html`** em seu navegador (basta dar duplo clique ou usar um servidor local).
+1. **Abra o sistema pelo link: 
 2. **Faça login** usando um dos usuários padrão acima.
 3. **Navegue** pelas funcionalidades do sistema normalmente.
 
 > **Observação:**  
-> O sistema é totalmente front-end e não requer instalação de dependências ou backend. Todos os dados são salvos no `localStorage` do navegador.
+> O sistema é totalmente front-end. Todos os dados são salvos no `localStorage` do navegador.
 
 ---
 
@@ -112,7 +111,7 @@ Desenvolvimento Web/
 Engenharia de Software 3A  
 Centro Universitário Campo Real
 
-> Projeto desenvolvido para fins acadêmicos e aprendizado em desenvolvimento web.
+> Projeto desenvolvido para fins acadêmicos e aprendizado em desenvolvimento web/mobile.
 
 ---
 
