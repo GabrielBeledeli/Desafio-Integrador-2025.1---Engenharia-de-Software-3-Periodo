@@ -104,6 +104,31 @@ Desenvolvimento Web/
 
 ---
 
+## 🗂️ Documentação de Modelagem (UML e Banco de Dados)
+
+O projeto **PneusMAX** também acompanha um conjunto completo de artefatos de modelagem e banco de dados, ideal para análise técnica, documentação acadêmica ou futura implementação de backend:
+
+### 📌 Modelagem UML
+
+- **Diagrama de Casos de Uso**: Representa os principais atores (usuários) e suas interações com o sistema, incluindo funcionalidades como login, cadastro, edição, exclusão e visualização de produtos.
+- **Diagrama de Atividades**: Ilustra o fluxo das ações dentro do sistema, como o processo de login e cadastro de pneus e demais, útil para validar regras de negócio.
+
+Arquivos estão localizados na pasta `Modelagem UML/` do projeto.
+
+---
+
+### 🧱 Modelagem de Banco de Dados
+
+- **MER – Modelo Entidade-Relacionamento**: Estrutura conceitual das entidades envolvidas (usuário, pneu, especificação, log) e seus relacionamentos.
+- **MR – Modelo Relacional**: Conversão do MER para o formato relacional, representando tabelas, colunas, chaves primárias e estrangeiras.
+- **Script SQL**:
+  - **DDL (Data Definition Language)**: Criação das tabelas do banco de dados físico.
+  - **DML (Data Manipulation Language)**: Inserção de dados iniciais para simulação e testes.
+
+Arquivos estão localizados na pasta `Modelagem BancodeDados/` do projeto.
+
+---
+
 ## 🧠 Autores
 
 - **Gabriel Beledeli Hul**
