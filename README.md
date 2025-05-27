@@ -38,6 +38,7 @@ Desenvolvimento Web/
 │
 ├── css/                         # Arquivos de estilos
 │   ├── style_login.css
+│   ├── style_dashboard.css
 │   ├── style_header_footer.css
 │   ├── style_cadastro.css
 │   ├── style_estoque.css
