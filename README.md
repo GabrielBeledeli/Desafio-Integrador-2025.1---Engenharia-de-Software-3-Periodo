@@ -1,8 +1,9 @@
-# 📛 PneuaMax – Sistema de Gestão de Pneus
+
+# 📛 PneusMAX – Sistema de Gestão de Pneus
 
 ## 🧾 Descrição
 
-**PneuaMax** é um sistema web responsivo para gerenciamento de estoque de pneus, permitindo cadastro, edição, exclusão e visualização de produtos. O sistema oferece autenticação de usuários, interface moderna e intuitiva, dashboard com gráficos interativos, registro de logs de ações e controle completo dos dados via `localStorage` do navegador. Ideal para uso acadêmico, demonstração de CRUD e conceitos de front-end.
+**PneusMAX** é um sistema web responsivo para gerenciamento de estoque de pneus, permitindo cadastro, edição, exclusão e visualização de produtos. O sistema oferece autenticação de usuários, interface moderna e intuitiva, dashboard com gráficos interativos, registro de logs de ações e controle completo dos dados via `localStorage` do navegador. Ideal para uso acadêmico, demonstração de CRUD e conceitos de front-end.
 
 ---
 
@@ -30,10 +31,13 @@
 ---
 
 ## 📦 Organização do Projeto
+
+```bash
 Desenvolvimento Web/
 │
-├── assets/                # Imagens, ícones e logo do sistema
-├── css/                   # Arquivos de estilos (um para cada tela)
+├── assets/                      # Imagens, ícones e logo do sistema
+│
+├── css/                         # Arquivos de estilos
 │   ├── style_login.css
 │   ├── style_header_footer.css
 │   ├── style_cadastro.css
@@ -42,7 +46,7 @@ Desenvolvimento Web/
 │   ├── style_exclusao.css
 │   └── style_log.css
 │
-├── js/                    # Scripts JavaScript de cada funcionalidade
+├── js/                          # Scripts JavaScript
 │   ├── script_login.js
 │   ├── script_logout.js
 │   ├── script_header_mobile.js
@@ -53,19 +57,20 @@ Desenvolvimento Web/
 │   ├── script_dashboard.js
 │   └── script_log.js
 │
-├── index_login.html       # Tela de login
-├── index_home.html        # Tela principal (estoque)
-├── index_cadastro.html    # Cadastro de pneus
-├── index_edicao.html      # Edição de pneus
-├── index_exclusao.html    # Confirmação de exclusão
-├── index_dashboard.html   # Dashboard com gráficos
-└── index_log.html         # Histórico de ações (log)
+├── index_login.html            # Tela de login
+├── index_home.html             # Tela principal (estoque)
+├── index_cadastro.html         # Cadastro de pneus
+├── index_edicao.html           # Edição de pneus
+├── index_exclusao.html         # Confirmação de exclusão
+├── index_dashboard.html        # Dashboard com gráficos
+└── index_log.html              # Histórico de ações (log)
+```
 
 ---
 
 ## 👥 Usuários Padrão para Login
 
-- **Usuário 1:** `gabriel_hul` / `gabriel123`
+- **Usuário 1:** `gabriel_hul` / `gabriel123`  
 - **Usuário 2:** `caio_gemin` / `caio123`
 
 *(Esses usuários são inseridos automaticamente no `localStorage` caso não existam.)*
@@ -111,4 +116,4 @@ Centro Universitário Campo Real
 
 ---
 
-**Sinta-se à vontade para explorar, testar e adaptar o PneuaMax!** 🚗🛞
+**Sinta-se à vontade para explorar, testar e adaptar o PneusMAX!** 🚗🛞
