@@ -137,7 +137,7 @@ Arquivos estão localizados na pasta `Modelagem BancodeDados/` do projeto.
 Engenharia de Software 3A  
 Centro Universitário Campo Real
 
-> Projeto desenvolvido para fins acadêmicos e aprendizado em desenvolvimento web/mobile.
+> Projeto desenvolvido para fins acadêmicos e aprendizado.
 
 ---
 
