@@ -1,3 +1,14 @@
+// Verifica se a chave "usuarios" já existe no localStorage
+if (!localStorage.getItem('usuarios')) {
+  // Se não existir, cria com os dados iniciais
+  const usuariosIniciais = [
+    { id_usuario: 1, usuario: "gabriel_hul", senha: "gabriel123" },
+    { id_usuario: 2, usuario: "caio_gemin", senha: "caio123" }
+  ];
+  localStorage.setItem('usuarios', JSON.stringify(usuariosIniciais));
+  console.log("Usuários padrão inseridos no localStorage.");
+}
+
 document.getElementById('loginForm').addEventListener('submit', function (e) {
   // Impede o comportamento padrão do formulário (recarregar a página)
   e.preventDefault();

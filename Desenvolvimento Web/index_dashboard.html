@@ -7,8 +7,11 @@
     <title>PneuMax | Dashboard</title>
     <!-- Link para os arquivos CSS -->
     <link rel="stylesheet" href="css/style_header_footer.css" />
+    <link rel="stylesheet" href="css/style_dashboard.css">
     <!-- Ícone da aba do navegador -->
     <link rel="shortcut icon" href="assets/icon2.png" type="image/x-icon">
+    <!-- Script para a biblioteca Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -42,6 +45,34 @@
         </div>
     </header>
 
+    <!-- Dashboard -->
+<main class="dashboard-main">
+  <h2>Dashboard de Estoque</h2>
+
+  <div class="graficos-grid">
+    <section class="grafico-container">
+      <h3>Estoque por Marca</h3>
+      <canvas id="graficoMarca"></canvas>
+    </section>
+
+    <section class="grafico-container">
+      <h3>Estoque por Aro</h3>
+      <canvas id="graficoAro"></canvas>
+    </section>
+
+    <section class="grafico-container">
+      <h3>Produtos com Estoque Baixo</h3>
+      <canvas id="graficoEstoqueBaixo"></canvas>
+    </section>
+
+    <section class="grafico-container">
+      <h3>Tendência de Alterações</h3>
+      <canvas id="graficoAlteracoes"></canvas>
+    </section>
+  </div>
+</main>
+
+
 
     <!-- Rodapé fixo da página -->
     <footer class="cls-footer">
@@ -50,8 +81,10 @@
 
     <!-- Script para controlar a abertura e fechamento do menu hamburguer -->
     <script src="js/script_header_mobile.js"></script>
-    <!-- Função para fazer logout -->    
-     <script src="js/script_logout.js"></script>
+    <!-- Script dashboard -->
+    <script src="js/script_dashboard.js"></script>
+    <!-- Função para fazer logout -->
+    <script src="js/script_logout.js"></script>
 </body>
 
 </html>
