@@ -70,7 +70,7 @@ Desenvolvimento Web/
 
 ## 👥 Usuários/Senhas Padrão para Login
 
-- **Usuário:** `gabriel_hul` **Senha:** `gabriel123`  
+- **Usuário 1:** `gabriel_hul` **Senha:** `gabriel123`  
 - **Usuário 2:** `caio_gemin` **Senha:** `caio123`
 - **Usuário 3:** `teste_di` **Senha:** `teste123`
 
