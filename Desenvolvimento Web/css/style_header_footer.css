@@ -65,7 +65,7 @@ header {
 }
 
 .header-nav a.ativo {
-    border-bottom: 2px solid #CF291D;
+    border-bottom: 2px solid #E55248;
     padding-bottom: 2px;
 }
 
@@ -83,7 +83,7 @@ header {
 }
 
 .header-user-info button {
-    background-color: #CF291D;
+    background-color: #E55248;
     color: white;
     border: none;
     padding: 5px 10px;
