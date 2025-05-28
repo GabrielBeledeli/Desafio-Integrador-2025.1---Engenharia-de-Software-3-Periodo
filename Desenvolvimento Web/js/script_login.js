@@ -3,7 +3,8 @@ if (!localStorage.getItem('usuarios')) {
   // Se não existir, cria com os dados iniciais
   const usuariosIniciais = [
     { id_usuario: 1, usuario: "gabriel_hul", senha: "gabriel123" },
-    { id_usuario: 2, usuario: "caio_gemin", senha: "caio123" }
+    { id_usuario: 2, usuario: "caio_gemin", senha: "caio123" },
+    { id_usuario: 3, usuario: "teste_di", senha: "teste123"}
   ];
   localStorage.setItem('usuarios', JSON.stringify(usuariosIniciais));
   console.log("Usuários padrão inseridos no localStorage.");

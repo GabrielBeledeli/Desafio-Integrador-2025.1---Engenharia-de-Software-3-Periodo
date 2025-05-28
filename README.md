@@ -70,8 +70,9 @@ Desenvolvimento Web/
 
 ## 👥 Usuários/Senhas Padrão para Login
 
-- **Usuário 1:** `gabriel_hul` / `gabriel123`  
-- **Usuário 2:** `caio_gemin` / `caio123`
+- **Usuário:** `gabriel_hul` **Senha:** `gabriel123`  
+- **Usuário 2:** `caio_gemin` **Senha:** `caio123`
+- **Usuário 3:** `teste_di` **Senha:** `teste123`
 
 *(Esses usuários são inseridos automaticamente no `localStorage` caso não existam.)*
 
