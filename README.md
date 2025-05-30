@@ -80,7 +80,7 @@ Desenvolvimento Web/
 
 ## 🔧 Como Executar o Projeto
 
-1. **Abra o sistema pelo link: [https://pneus-max-gerenciamento-de-produtos.vercel.app/index.html]
+1. **Abra o sistema pelo link: [https://pneus-max-gerenciamento-de-produtos.vercel.app/index.html](https://pneus-max-gerenciamento-de-produtos.vercel.app/index.html).
 2. **Faça login** usando um dos usuários padrão acima.
 3. **Navegue** pelas funcionalidades do sistema normalmente.
 
